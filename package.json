@@ -1,0 +1,19 @@
+{
+  "name": "certificates-microservice",
+  "version": "1.0.0",
+  "description": "Microservice to create certificated for the PSP users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "Digital Factory",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jspdf": "^2.5.1",
+    "pdfkit": "^0.14.0",
+    "pdfmake": "^0.2.9",
+    "puppeteer": "^21.9.0"
+  }
+}
